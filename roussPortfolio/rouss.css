@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: Charm-Regular;
+    src:url(Charm/Charm-Regular.ttf);
+}
+
+body{
+    
+    font-family: Charm-Regular;
+    background: url(mixtuto.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    height:90vh;
+    vertical-align:middle;
+    
+}
+header{
+    padding-top: 2em;
+    
+}
+.gobackmainpage{
+    
+    background-color:rgba(255, 255, 255, 0.353);
+    text-align:center;
+    color:rgb(124, 196, 255);
+    font-size: 2em;
+    margin: 0px 25px;
+    box-shadow: 0 5px 0 rgba(255, 255, 255, 0.57);
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.sobre > p{
+   
+    border: solid white 50px;
+    border-style:double;
+    background-color: rgba(228, 239, 245, 0.874);
+    color: #38c7ffa1;
+    padding: 50px;
+    margin: 75px; 
+    font-size: larger;
+
+}
+nav{
+    text-align: center;
+
+   
+}
+nav a:link, nav a:visited {
+    
+    color:rgb(124, 196, 255);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0px 25px;
+ }
+
+nav a:hover{
+    color:rgb(255, 168, 158);
+    
+ }
+
+nav a:active{
+     background-color: rgb(255, 168, 158);
+ }
+
+nav a.currentPage{
+     text-decoration: overline;
+ }
+
+.mainpageul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 25px;
+   
+
+}
+.mainpageul > li{
+    
+    font-size: x-large;
+    padding: 10%;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    
+
+}
+.contemplar{
+    background-image: url(../roussPortfolio/contemplar/background.jpg);
+    background-size:cover;
+}   
+.picsContemplar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 100px;
+    margin-bottom: 10%;
+    grid-column-gap:2rem;
+    grid-row-gap:2rem;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.picsContemplar > li{
+    list-style: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    
+}
+
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  
+footer {
+    height:50px; 
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.604);
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
+    font-size: larger;
+    text-align: center;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    padding:5px;
+    vertical-align: middle;
+   
+}
+
+a:link, footer a:visited {
+    
+    color:rgb(124, 196, 255);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0px 25px;
+ }
+
+footer a:hover{
+    color:rgb(255, 168, 158);
+    
+ }
+
+footer a:active{
+     background-color: rgb(255, 168, 158);
+ }
+
+footer a.currentPage{
+     text-decoration: overline;
+ }
+ .resiliencia{
+     background-image: url(../roussPortfolio/resiliencia/green_blue.jpg);
+ }
+ .picsResiliencia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px;
+    margin-bottom: 10%;
+    grid-column-gap:10rem;
+    grid-row-gap:10rem;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.picsResiliencia > li{
+    list-style: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 25px;
+   
+
+}
+.design > li{
+    
+    font-size: x-large;
+    padding: 10%;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    
+
+}
+
+.indolencia{
+    background-image: url(../roussPortfolio/indolencia/fire3.jpg);
+    
+  
+}
+.picsIndolencia{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 100px;
+    margin-bottom: 50%;
+    grid-column-gap:2rem;
+    grid-row-gap:2rem;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.picsIndolencia > li{
+    list-style: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+    .bigger:hover { 
+        transform: scale(1.5); 
+    }
+
+.alasDeEsperanza{
+    background-image: url(../roussPortfolio/alasDeEdperanza/back_ground.jpg);
+}
+.picsalasDeEsperanza{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 100px;
+    margin-bottom: 10%;
+    grid-column-gap:2rem;
+    grid-row-gap:2rem;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.picsalasDeEsperanza > li{
+    list-style: none;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
+
+ /* 
+ ilk listenin nasil text in ortalandigini sor 
+ sonra footer nasil sag tarfa 
+ nasil grid yan yana gelir 
+ a*/
